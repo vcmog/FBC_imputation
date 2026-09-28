@@ -343,14 +343,14 @@ def calculate_haemoglobin_rbc_mch(rbc, mch):
 
 def calculate_haemoglobin_haematocrit_mch(haematocrit, mch):
     """
-    Calculate haemoglobin from haematocrit and mean corpuscular haemoglobin (MCH).
+    Calculate haemoglobin from haematocrit and mean corpuscular haemoglobin concentration (MCH).
 
     Parameters
     ----------
     haematocrit : float
         Haematocrit as a unitless fraction (L of red cells per L of blood).
     mch : float
-        Mean corpuscular haemoglobin in picograms (pg).
+        Mean corpuscular haemoglobin concentration in grams per decilitre (g/dL).
 
     Returns
     -------
