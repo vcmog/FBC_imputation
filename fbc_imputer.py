@@ -298,9 +298,9 @@ def calculate_rbc_from_haematocrit_mcv(haematocrit, mcv):
 
     Notes
     -----
-    The function uses the relationship RBC = (haematocrit * 10) / MCV.
+    The function uses the relationship RBC = (haematocrit * 1000) / MCV.
     """
-    return (haematocrit * 10) / mcv
+    return (haematocrit * 1000) / mcv
 
 
 def calculate_rbc_from_haem_mch(haemoglobin, mch):
