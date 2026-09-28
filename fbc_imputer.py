@@ -341,7 +341,7 @@ def calculate_haemoglobin_rbc_mch(rbc, mch):
     return (rbc * mch) / 10
 
 
-def calculate_haemoglobin_haematocrit_mch(haematocrit, mch):
+def calculate_haemoglobin_haematocrit_mchc(haematocrit, mchc):
     """
     Calculate haemoglobin from haematocrit and mean corpuscular haemoglobin concentration (MCH).
 
@@ -357,7 +357,7 @@ def calculate_haemoglobin_haematocrit_mch(haematocrit, mch):
     float
         Haemoglobin concentration in grams per decilitre (g/dL).
     """
-    return haematocrit * mch
+    return haematocrit * mchc
 
 
 def calculate_mch_haem_rbc(haemoglobin, rbc):
