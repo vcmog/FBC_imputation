@@ -481,7 +481,7 @@ def build_compute_funcs():
         "RBC": [calculate_rbc_from_haematocrit_mcv, calculate_rbc_from_haem_mch],
         "Haemoglobin": [
             calculate_haemoglobin_rbc_mch,
-            calculate_haemoglobin_haematocrit_mch,
+            calculate_haemoglobin_haematocrit_mchc,
         ],
         "MCH": [calculate_mch_haem_rbc],
         "MCHC": [calculate_mchc_from_haem_haematocrit],
