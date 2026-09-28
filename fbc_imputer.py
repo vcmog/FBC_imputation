@@ -148,7 +148,7 @@ def build_derivation_cols():
         ],
         "Haemoglobin": [
             ("RBC", "MCH"),  # calculate_haemoglobin_rbc_mch
-            ("Haematocrit", "MCH"),  # calculate_haemoglobin_haematocrit_mch
+            ("Haematocrit", "MCHC"),  # calculate_haemoglobin_haematocrit_mch
         ],
         "MCH": [
             ("Haemoglobin", "RBC"),  # calculate_mch_haem_rbc
